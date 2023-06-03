@@ -123,6 +123,12 @@ img{
 }
 
 
+.main > img:hover{
+    cursor: pointer;
+    transition: transform 0.8s ease;
+    transform: scale(1.1);
+}
+
 .main{
     justify-content: center;
     align-items: center;
