@@ -1,0 +1,165 @@
+body{
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(158, 167, 175);    
+}
+
+a:hover{
+    color: #4E5150;
+}
+
+header{
+    display: block;
+}
+
+.ima{
+    width: 40%;
+}
+
+.ima img{
+    width: 40%;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    color: #4E5150;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    
+}
+
+.address{
+    color: #A9A9A9;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.btn{
+    width: 100px;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+    background-color: #a5a8a7;
+}
+
+.btn .num{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    height: 5px;
+    color: #4E5150;
+
+}
+
+.c{
+    color: #BDBDBD; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+
+.main{
+    padding: 10%;
+    height: 100%;
+    display: grid;
+    grid-gap: 13px;
+    grid-template-areas:  'a b b' 
+                          'c c d'
+                          'e f d';
+    width: 70%;
+}
+
+.main > img{
+    width: 100%;
+}
+
+.main :nth-child(1){
+    grid-area: a;
+}
+
+.main :nth-child(2){
+    grid-area: b;
+}
+
+.main :nth-child(3){
+    grid-area: c;
+}
+
+.main :nth-child(4){
+    grid-area: d;
+}
+
+.main :nth-child(5){
+    grid-area: e;
+}
+
+.main :nth-child(6){
+}
+
+
+.main{
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+  
+  html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+  }
+
+  .info{
+    letter-spacing: 20px;
+  }
+  
+  @media only screen and (max-width: 800px){
+    .ima{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main{
+        padding: 0;
+        margin-top: 50px;
+        width: 100%;
+
+    }
+
+    .btn{
+        width: 25%;
+    }
+
+  } 
+
+
+  @media only screen and (max-width: 315px){
+    
+   }
