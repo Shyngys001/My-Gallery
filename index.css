@@ -151,7 +151,11 @@ img{
   @media only screen and (max-width: 800px){
     .ima{
         width: 100%;
-        margin: 0;
+        margin: 0 ;
+    }
+
+    .ima > img{
+        width: 40%;
     }
 
     .main{
